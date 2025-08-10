@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia Forms</title>
+</head>
+
+<body>
+    <header>
+        <hi>User Registration</hi>
+        <p>Fill in the form to Register</p>
+    </header> 
+<section>
+    <h2>Personal Information</h2>
+    <label>Full name:</label>
+    <input type="text" name="fullname" placeholder="Enter your full name" required>
+    <br>
+    <label>Email:</label>
+    <input type="email" name="email" placeholder="Enter your email" required autocomplete="on">
+    <br>
+    <label>Phone Number:</label>
+    <input type="tel" name="phone" placeholder="Enter your phone number" required>
+    <br>
+    <label>Date of Birth:</label>
+    <input type="date" name="dob" required>
+    <br>
+    <label for- "gender">Gender</label>
+    <select id-"gender" name-"gender" required>
+        <option value-- disabled select >Select your </option>
+             <option value="male">Male</option>
+             <option value="female">Female</option>
+             <option value="other">Other</option>
+<select></select>
+</section> 
+<label>
+    <input type="checkbox" name="terms" required>
+    I agree to the terms and conditions
+</label> 
+<label>
+<input type="checkbox" name="subscribe" value="yes"readonly>
+    Subscribe to our newsletter
+</label>
+
+<section>
+    <h2>Our Values</h2>
+<ul>
+    <li>Integrity</li>
+    <li>Innovation</li>
+    <li>Customer Focus</li>
+    <li>Excellence</li>
+</section>
+,<section>
+    <h2>Pricing Table</h2>
+<table> border="1" cellpadding="5" cellspacing="0">
+    <thead>
+        <tr>
+            <th>Plan</th>
+            <th>Price</th>
+            <th>Features</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Basic</td>
+            <td>$10/month</td>
+            <td>Access to basic features</td>
+        </tr>
+        <tr>
+            <td>Premium</td>
+            <td>$20/month</td>
+            <td>Access to all features</td>
+        </tr>
+        <tr>
+            <td>Enterprise</td>
+            <td>$50/month</td>
+            <td>Custom solutions and support</td>
+        </tr>
+    </tbody>
+</section>
+<section>
+    <h1>
+        WELCOME TO MEDIA PAGE 
+    </h1>
+    <p>Explore our multimedia content below:</p>
+    <P>Listen to this audio</P>
+    <audio controls>
+        <source src="audio/sample-audio.mp3" type="audio/mpeg" download>
+        Your browser does not support the audio element.
+    </audio>
+<h2>Watch this video
+
+</h2>
+    <video width="320" height="240" controls>
+        <source src="video/sample-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</body>
+</html>
